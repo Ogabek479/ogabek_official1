@@ -1,0 +1,50 @@
+body {
+    background-color: #ff00ff;
+}
+.my_form { 
+    display: inline-block;
+    text-align: center; 
+    margin-top: 170px;  
+    margin-left: 38%; 
+    border: 2px wheat solid; 
+    padding-top: 45px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 45px;
+    border-radius: 6px; 
+    background-color: white;
+    
+} 
+
+.my_form:hover {
+    background-color: rgb(167, 224, 167); 
+    border: 2px rgb(167, 224, 167) solid;
+}
+.Name, .email, .password {
+    border-radius: 4px;
+    width: 300px;
+    height: 40px; 
+    padding-left: 10px; 
+    margin-bottom: 12px; 
+    background-color: #f0f0f0; 
+    border: none;
+}  
+
+.Name:hover, .email:hover, .password:hover {
+    background-color: white;
+}
+
+.btn {
+    margin-top: 18px; 
+    width: 150px; 
+    height: 50px; 
+    background-color: hsl(0, 100%, 53%); 
+    border-radius: 40px; 
+    color: wheat; 
+    text-transform: uppercase; 
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.btn:hover {
+    background-color: blue;
+}
